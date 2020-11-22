@@ -75,6 +75,8 @@
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Joystick\JoystickPanel.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\Joystick\JoystickTest.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
