@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{276242EF-3153-A7B9-6738-B392405577A1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ProjectBase/PlayPrefs/PlayPrefsDataMgr.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ProjectBase/PlayPrefs/NewMonoBehaviour.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/ProjectBase/PlayPrefs/PlayPrefsDataMgr.cs" Line="67" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unity_new_frame" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ProjectBase" expanded="True">
+                  <Node name="PlayPrefs" expanded="True">
+                    <Node name="PlayPrefsDataMgr.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ed1849d-f1cb-40aa-8c37-b264a6b9c531" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

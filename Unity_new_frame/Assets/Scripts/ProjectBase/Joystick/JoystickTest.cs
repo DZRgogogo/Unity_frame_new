@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 ///<summary>
-///挂在被移动的物体上
+///
 ///</summary>
-public class JoystickTest : MonoBehaviour 
+public class Test : MonoBehaviour 
 {
     private Vector3 dir;
     private void Start()
