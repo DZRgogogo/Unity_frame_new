@@ -80,7 +80,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
-    <Compile Include="Assets\Scripts\ProjectBase\PlayPrefs\PlayPrefsDataMgr.cs" />
+    <Compile Include="Assets\Scripts\ProjectBase\PlayPrefs\PlayerPrefsDataMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\PlayPrefs\TestPlay.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
