@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerInfo
 {
@@ -8,12 +9,7 @@ public class PlayerInfo
     public float hight = 164.51f;
     public bool sex = true;
     private bool sex1 = true;
-    public void okok()
-    {
-    }
-    private void okok1()
-    {
-    }
+    public List<int> list = new List<int>() { 1,2,3,4};
 }
 public class TestPlay : MonoBehaviour
 {
@@ -22,7 +18,7 @@ public class TestPlay : MonoBehaviour
     void Start()
     {
         PlayerInfo p = new PlayerInfo();
-        PlayPrefsDataMgr.GetInstance().SaveData(p, "111");
+        PlayPrefsDataMgr.GetInstance().SaveData(p, "Dzr");
     }
 
     // Update is called once per frame

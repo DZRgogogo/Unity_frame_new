@@ -64,7 +64,7 @@ public class PlayPrefsDataMgr : BaseManager<PlayPrefsDataMgr>
             //Player1_PlayerInfo_Int32_age
             saveKeyName = keyName + "_" + dataType.Name +
               "_" + info.FieldType.Name + "_" + info.Name;
-
+            Debug.Log("saveKeyName" + saveKeyName);
             //现在得到了Key 按照我们的规则
             //接下来就要来通过PlayerPrefs来进行存储
             //如何获取值
@@ -105,6 +105,25 @@ public class PlayPrefsDataMgr : BaseManager<PlayPrefsDataMgr>
             Debug.Log("存储bool" + keyName);
             //自己顶一个存储bool的规则
             PlayerPrefs.SetInt(keyName, (bool)value ? 1 : 0);
+        }
+        //如何判断 泛型类的类型呢
+        //通过反射 判断 父子关系
+        //这相当于是判断 字段是不是IList的子类
+        //IsAssignableFrom就是判断一个fieldType能不能从typeof(IList)中分配空间的，说白了就是判断是不是IList的子类的
+        else if (typeof(IList).IsAssignableFrom(fieldType))
+        {
+            Debug.Log("存储List" + keyName);
+            //父类装子类
+            IList list = value as IList;
+            //先存储 数量 
+            PlayerPrefs.SetInt(keyName, list.Count);
+            int index = 0;
+            foreach (object obj in list)
+            {
+                //存储具体的值，递归为了查明list中存放的哪种类型的
+                SaveValue(obj, keyName + index);
+                ++index;
+            }
         }
     }
     /// <summary>
